@@ -1,0 +1,13 @@
+{
+  "entries": [
+    "./components/my-card/my-card/my-card.js",
+    "./components/search-world/search-world.js"
+  ],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "2.12.1",
+    "typescriptVersion": "4.3.5"
+  },
+  "collections": [],
+  "bundles": []
+}

@@ -1,0 +1,1 @@
+import{r,h as c}from"./p-3b20ef5e.js";let a=class{constructor(c){r(this,c)}render(){return c("div",{class:"my-card-wrapper"},"This is my card component")}};a.style=".my-card-wrapper{background-color:#ccc}";export{a as my_card}
