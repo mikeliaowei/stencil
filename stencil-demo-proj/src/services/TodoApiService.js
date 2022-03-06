@@ -28,7 +28,7 @@ export default class TodoApiService
     {
         return new Promise((resolve, reject) => {
             // We fetch the API endpoint
-            fetch('https://localhost:44310/api/todoitems', {
+            fetch('https://localhost:5001/api/todoitems', {
                 method: 'POST',
                 headers: {
                         'Accept': 'application/json',
@@ -58,7 +58,7 @@ export default class TodoApiService
     {
         return new Promise((resolve, reject) => {
             // We fetch the API endpoint
-            fetch('https://localhost:44310/api/todoitems/' + id, {
+            fetch('https://localhost:5001/api/todoitems/' + id, {
                 method: 'DELETE',
                 headers: {
                         'Accept': 'application/json',

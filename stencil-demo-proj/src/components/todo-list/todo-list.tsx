@@ -4,7 +4,7 @@ import TodoApiService from '../../services/TodoApiService';
 @Component({
   tag: 'todo-list',
   styleUrl: 'todo-list.css',
-  shadow: true,
+  shadow: false,
 })
 export class TodoList {
 
@@ -62,7 +62,7 @@ export class TodoList {
   componentWillLoad() {
     //this method is only called once, it's a good place to
     //load data asynchronously.
-    return fetch('https://localhost:44310/api/todoitems')
+    return fetch('https://localhost:5001/api/todoitems')
       .then(response => response.json())
       .then(data => {
         this.todos = data;
